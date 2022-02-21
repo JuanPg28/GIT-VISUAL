@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jpenya.css"> 
+    <title>Portal JUANPG</title>
+
+    <script>
+        function silbarFuction(){
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+    </script>
+</head>
+<body>
+    <header class="fondo_pag">
+        <div class="header_nav">
+            <div class="contenedor">
+                <h1>JUAN P.G.</h1>
+                <nav>
+                    <a href="#">Inicio</a>
+                    <a href="#">Proyectos</a>
+                    <a href="#">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+        <section class="info contenedor">
+            <secrion class="info_titulo">
+                <h2>Necesita ayuda <br> con tu Pág.WEB</h2>
+                <a class="preguntar" href="#">No dudes en preguntar??</a>
+            </secrion>
+            <div class="contenedor_img">
+                <audio id="audio">
+                    <source type="audio/wav" src="img/silbido.mp3">
+                </audio>
+                <div class="bocadillo-redondo"></div>
+                <span class="text_boca">Click sobre mi!!</span>
+                <img onclick="silbarFuction()" src="img/logocat.gif" alt="">
+            </div>
+        </section>
+
+        <div class="burbujas">
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+        </div>
+    </header>
+    
+</body>
+</html>
